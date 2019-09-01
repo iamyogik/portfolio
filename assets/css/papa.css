@@ -1,4 +1,17 @@
 
+.carousel-cell {
+  margin: 10px 10px 20px 10px;
+  margin-bottom: 10px!important;
+}
+
+.carousel-cell img {
+    border-radius: 10px
+}
+
+.main-carousel {
+  background: #EEE;
+}
+
 .section-hero{
     min-height: 100vh !important;
 }
@@ -20,8 +33,13 @@
     border-color: #222;
     background-color: #222;
     box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    /* min-width: 180px; */
+}
+
+.top-button{
     min-width: 180px;
 }
+
 
 .skills-pill {
     padding: 5px 20px 4px 20px;
@@ -111,5 +129,131 @@
 .my-skills{
         margin-bottom: 35px !important;
 }
+
+
+@media screen and (min-width: 768px) {
+  .top-intro{
+        margin-top: 75px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+.ui-tooltip {
+    /* tooltip container box */
+    white-space: pre-line;
+}
+
+.ui-tooltip-content {
+    /* tooltip content */
+    white-space: pre-line;
+}
+
+.modal-dialog{
+    max-width: unset !important;
+}
+
+@media screen and (min-width: 768px) {
+  .modal-dialog{
+        margin: 0px 160px 0px 160px;
+    }
+}
+
+
+.modal-details{
+    /* margin-top: 25px; */
+    color: #000000d9;
+    font-weight: 600;
+}
+
+
+.modal-title{
+        line-height: unset;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.modal-link{
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+/* .cancel-btn{
+    background: red;
+    opacity: 1;
+    color: white;
+} */
+
+.close-btn{
+    right: 22px;
+    position: absolute;
+}
+
+
+
+
+.flickity-slider{
+    min-height: 70vh !important;
+}
+
+.projects-heading{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 50px;
+    margin-top: 25px;
+
+}
+
+
+
+
+@keyframes header-swing {
+    0% {
+        transform: translateX(-10px)
+    }
+
+    50% {
+        transform: translateX(10px)
+    }
+
+    to {
+        transform: translateX(-10px)
+    }
+}
+
+
+@keyframes header-swing-v {
+    0% {
+        transform: translateY(-10px)
+    }
+
+    50% {
+        transform: translateY(10px)
+    }
+
+    to {
+        transform: translateY(-10px)
+    }
+}
+
+.circle-top1{
+    animation:header-swing 4s infinite;
+}
+
+.circle-top2{
+    animation:header-swing-v 5s infinite;
+}
+
+
+
 
 

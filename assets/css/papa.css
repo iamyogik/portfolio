@@ -1,0 +1,115 @@
+
+.section-hero{
+    min-height: 100vh !important;
+}
+
+.heading-name{
+    font-weight: 800;
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.heading-desc{
+    font-weight: 400;
+    color: #ffffffd6;
+    font-size: 25px;
+}
+
+.github-button {
+    color: #fff;
+    border-color: #222;
+    background-color: #222;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    min-width: 180px;
+}
+
+.skills-pill {
+    padding: 5px 20px 4px 20px;
+    background: #ffffff00;
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 17px;
+     background: #6c4fdb61;
+}
+
+.profile-img{
+    border-radius: 50%;
+   
+}
+
+.projects-card{
+        cursor: pointer;
+        margin-bottom: 50px;
+}
+
+.projects-card .text-uppercase{
+    font-weight: 700;
+    font-size: 19px;
+}
+
+
+.projects-card .pill-heading{
+    font-weight: 600;
+    margin-right: 6px;
+}
+
+
+.projects-card .badge-pill{
+    font-size: 12px;
+    margin-bottom: 6px;
+    font-weight: 700;
+}
+
+.projects-card .description{
+    font-weight: 400;
+}
+
+.skills-icon{
+    -webkit-font-smoothing: antialiased;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: rgba(50,50,93,.1) 0 15px 35px,rgba(0,0,0,.07) 0 5px 15px;
+  box-sizing: border-box;
+  display: inline-flex;
+  font-family: NucleoIcons;
+  font-size: 1.7em;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-caps: normal;
+  font-variant-east-asian: normal;
+  font-variant-ligatures: normal;
+  font-variant-numeric: normal;
+  font-weight: 400;
+  height: 5rem;
+  justify-content: center;
+  left: calc(50% - (var(--gutter)*2.7));
+  line-height: 1;
+  opacity: 1;
+  position: absolute;
+  text-rendering: auto;
+  top: calc(50% - (var(--gutter)*1.5));
+  transform: translate(-50%,-50%);
+  transition-delay: 0s;
+  transition-duration: .2s;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(.25,.65,.9,.75);
+  width: 5rem;
+  z-index: 1;
+}
+
+
+
+
+
+.my-skills img{
+    max-width: 90px;
+}
+
+.my-skills{
+        margin-bottom: 35px !important;
+}
+
+
